@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<style type="text/css">
+		button{
+			font-size: 40px;
+			background-color: white;
+			color: red;
+			border: 2px solid black;
+			margin: 200px;
+			border-radius: 10px;
+			border-color: white;
+			animation: random 10s infinite;
+		}
+		@keyframes random{
+  10%{
+    border-color:#f2a365;
+    color:#f2a365;
+  }  
+  20%{ border-color:blue;
+    color:blue;    
+  }
+  40%{ border-color:green;
+    color:green;    
+  }
+  50%{ border-color:yellow;
+    color:yellow;   
+  }  
+}
+button:hover{
+	cursor: pointer;
+}
+	</style>
+</head>
+<body>
+    <center>
+    	<button onclick="quiz()">START QUIZ!!!</button>
+    </center>
+	<script type="text/javascript" src="quiz1.js"></script>
+
+</body>
+</html>
